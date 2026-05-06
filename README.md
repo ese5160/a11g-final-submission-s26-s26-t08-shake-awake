@@ -6,7 +6,9 @@
 
 **Team Name:** Shake Awake
 
-**GitHub Repository URL:** [https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake](https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake)
+**GitHub Repository URL:** [https://github.com/ese5160/a11g-final-submission-s26-s26-t08-shake-awake](https://github.com/ese5160/a11g-final-submission-s26-s26-t08-shake-awake)
+
+**GitHub Pages Link:** [https://ese5160.github.io/a11g-final-submission-s26-s26-t08-shake-awake/](https://ese5160.github.io/a11g-final-submission-s26-s26-t08-shake-awake/)
 
 | Team Member Name  | Email Address          | GitHub Handle |
 | ----------------- | ---------------------- | ------------- |
@@ -96,7 +98,7 @@ https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E
 | ------ | -------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | HRS-01 | Movement Detection   | Complete   | Refer to[ IMU dev board datasheet](https://cdn.sparkfun.com/assets/c/f/9/d/1/lsm6dso_datasheet.pdf)                                                                                             |
 | HRS-02 | Speaker Noise        | Partial    | Speaker noise measured to be at least 70 dB, is not customizable.<br />Reference: [https://youtube.com/shorts/KzBlNMMjUEQ?feature=share](https://youtube.com/shorts/KzBlNMMjUEQ?feature=share) |
-| HRS-03 | LCD Screen           | Complete   | Display updates in real time to show new time or alarm timings sent from the cloud                                                                                                           |
+| HRS-03 | LCD Screen           | Partial    | Display updates in real time to show new time or updated time from cloud, but we used Node-RED to display environmental data instead                                                        |
 | HRS-04 | MCU Choice           | Complete   | Existential, no additional controllers or processor dev boards used                                                                                                                          |
 | HRS-05 | Battery Choice       | Complete   | Existential, case work modelled around this particular battery pack shape                                                                                                                    |
 | HRS-06 | Battery Life         | Complete   | Typcial current usage of 122.89 mA provides an expected battery life of 17.9 hrs, 223% of target                                                                                            |
@@ -181,7 +183,6 @@ Block Diagram
 
 ## 5. Codebase
 
-
 Firmware: [https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake/tree/main/wifi_integrated](https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake/tree/main/wifi_integrated)
 
 Node-RED Source Code: [https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake/blob/main/Node-RED/final_submission.json](https://github.com/ese5160/final-project-firmware-s26-t08-shake-awake/blob/main/Node-RED/final_submission.json)
@@ -189,7 +190,6 @@ Node-RED Source Code: [https://github.com/ese5160/final-project-firmware-s26-t08
 Thrid Party Display Driver:
 
 - Example: [https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/example/adafruit_tft_lcd_ili9341](https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/example/adafruit_tft_lcd_ili9341)
-
 - Documentation: [https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/documentation/example/adafruit_tft_lcd_ili9341](https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/documentation/example/adafruit_tft_lcd_ili9341)
-  - Use of this library requires installing the Third Party Hardware Drivers Extension, which is linked in the documentation
 
+  - Use of this library requires installing the Third Party Hardware Drivers Extension, which is linked in the documentation
