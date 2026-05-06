@@ -94,7 +94,7 @@ https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E
 
 | ID     | HRS Goal             | Success    | Measurement / Discussion                                                                                                                                                                     |
 | ------ | -------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HRS-01 | Movement Detection   | Complete   | Refer to used[dev boards datasheet](https://cdn.sparkfun.com/assets/c/f/9/d/1/lsm6dso_datasheet.pdf)                                                                                            |
+| HRS-01 | Movement Detection   | Complete   | Refer to [ IMU dev board datasheet](https://cdn.sparkfun.com/assets/c/f/9/d/1/lsm6dso_datasheet.pdf)                                                                                            |
 | HRS-02 | Speaker Noise        | Partial    | Speaker noise measured to be at least 70 dB, is not customizable.<br />Reference: [https://youtube.com/shorts/KzBlNMMjUEQ?feature=share](https://youtube.com/shorts/KzBlNMMjUEQ?feature=share) |
 | HRS-03 | LCD Screen           | Complete   | Display updates in real time to show new time or alarm timings sent from the cloud                                                                                                           |
 | HRS-04 | MCU Choice           | Complete   | Existential, no additional controllers or processor dev boards used                                                                                                                          |
@@ -118,16 +118,16 @@ https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E
 
 ### 3.4 SRS Evaluation
 
-| ID     | HRS Goal               | Success    | Measurement / Discussion                                                                                                          |
-| ------ | ---------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| SRS-01 | IMU Polling            | Complete   | Refer to used[dev boards datasheet](https://cdn.sparkfun.com/assets/c/f/9/d/1/lsm6dso_datasheet.pdf), as well as code snippet below. |
-| SRS-02 | IMU Control            | Complete   | Existential, refer to codebase                                                                                                    |
-| SRS-03 | Edge Computing         | Complete   | Video demonstration shows Node-RED integration                                                                                    |
-| SRS-04 | RTOS                   | Complete   | Refer to codebase                                                                                                                 |
-| SRS-05 | Menus (State Machines) | Incomplete | Keypad integration forgone, see Button Configuration HRS                                                                          |
-| SRS-06 | Environmental Data     | Partial    | Displayed only on Node-RED, not on-device display                                                                                 |
-| SRS-07 | Custom Audio           | Incomplete | Custom audio uploads were prohibitively blocking during firmware development, at least within bounds of course timeline           |
-| SRS-08 | Noise Rejection        | Complete   | Demonstrated in video, code snippet attached                                                                                      |
+| ID     | HRS Goal               | Success    | Measurement / Discussion                                                                                                               |
+| ------ | ---------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| SRS-01 | IMU Polling            | Complete   | Refer to [ IMU dev board datasheet](https://cdn.sparkfun.com/assets/c/f/9/d/1/lsm6dso_datasheet.pdf), as well as IMU code snippets below. |
+| SRS-02 | IMU Control            | Complete   | Existential, refer to codebase                                                                                                         |
+| SRS-03 | Edge Computing         | Complete   | Video demonstration shows Node-RED integration                                                                                         |
+| SRS-04 | RTOS                   | Complete   | Refer to codebase                                                                                                                      |
+| SRS-05 | Menus (State Machines) | Incomplete | Keypad integration forgone, see Button Configuration HRS                                                                               |
+| SRS-06 | Environmental Data     | Partial    | Displayed only on Node-RED, not on-device display                                                                                      |
+| SRS-07 | Custom Audio           | Incomplete | Custom audio uploads were prohibitively blocking during firmware development, at least within bounds of course timeline                |
+| SRS-08 | Noise Rejection        | Complete   | Demonstrated in video, code snippet attached                                                                                           |
 
 #### IMU Code Snippets
 
