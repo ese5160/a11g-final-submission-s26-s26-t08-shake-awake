@@ -191,4 +191,5 @@ Thrid Party Display Driver:
 - Example: [https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/example/adafruit_tft_lcd_ili9341](https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/example/adafruit_tft_lcd_ili9341)
 
 - Documentation: [https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/documentation/example/adafruit_tft_lcd_ili9341](https://github.com/SiliconLabsSoftware/third_party_hw_drivers_extension/tree/master/app/documentation/example/adafruit_tft_lcd_ili9341)
+  - Use of this library requires installing the Third Party Hardware Drivers Extension, which is linked in the documentation
 
