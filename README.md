@@ -85,6 +85,14 @@
 | SRS-07 | Custom Audio           | Incomplete | Custom audio uploads were prohibitively blocking during firmware development, at least within bounds of course timeline |
 | SRS-08 | Noise Rejection        | Complete   | Demonstrated in video, code snippet attached                                                                            |
 
+#### IMU Code Snippets
+
+Initialization:
+![IMU Init](image/README/imu_config.png)
+
+RTOS Function:
+![IMU RTOS](image/README/imu_rtos_function.png)
+
 ## 4. Project Photos
 
 Final Prototype
