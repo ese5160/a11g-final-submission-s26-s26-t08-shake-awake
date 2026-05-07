@@ -75,11 +75,11 @@ When we received our PCBs, focus shifted to bring-up: testing hardware on an ass
 
 **Node RED:**
 
-http://52.247.5.204:1880/dashboard/
+[http://52.247.5.204:1880/dashboard/](http://52.247.5.204:1880/dashboard/)
 
 **Altium:**
 
-https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E1
+[https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E1](https://upenn-eselabs.365.altium.com/designs/017B68EE-0638-4138-B759-573CDCC668E1)
 
 ## 3. Hardware and Software Requirements
 
