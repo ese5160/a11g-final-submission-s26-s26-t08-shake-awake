@@ -51,7 +51,7 @@ Finally, we faced issues when integrating the over-the-air firmware update (OTAF
 
 A major lesson we learned is that adding as many test points as possible in a prototype PCBA is always useful, particularly for peripherals with leadless packaging. Our IMU came in a packaging without leads, making it difficult to evaluate the application circuit. We were able to use the Qwiic connector we added to debug the I2C, but having extra test points to pinpoint where the issues in the circuit were specifically would have been useful. While they were avoided in layout to save some space and headache, If we were to build the device again, we would have tried to add test points to some of the more risky application circuits.
 
-Firmware
+**Firmware**
 
 Through building and testing the prototype we saw that adding the OTAFU last made it more difficult to debug the issues and conflicts with other RTOS tasks. It would have been more efficient to start with these costly or potentially blocking elements (OTAFU and MQTT), and later adding the sensor and actuator tasks one by one to more effectively find and resolve the conflicts between each task. This approach would likely have allowed us to identify any potential issues as we added each thread, dealing with any issues immediately, rather than having to search for the underlying cause of a performance issue once we added the OTAFU.
 
